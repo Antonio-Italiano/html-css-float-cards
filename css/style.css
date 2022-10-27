@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Fredoka', sans-serif;    
+}
+
+.container {    
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intestaction {
+    color: #dd137a;
+    line-height: 5rem;    
+}
