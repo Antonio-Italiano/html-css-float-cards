@@ -11,7 +11,7 @@ body{
 /*Section conteiner*/
 
 .container {    
-    max-width: 1080px;
+    max-width: 975px;
     margin: 0 auto;
     text-align: center;
 }
@@ -26,12 +26,19 @@ body{
 }
 
 /*section card*/
-.card {
-    background-color: black;
-    padding: 0.3rem;
-    float: left;
-    
+.card-row {
+    margin: 0 -0.5rem;
 }
+.card {
+    
+    padding: 0.25rem 0.5rem;
+    float: left;
+    width: calc(100% / 3);    
+}
+.card-color{
+    background-color: black;
+}
+
 
 img{
     height: 4.5rem;
@@ -50,4 +57,12 @@ img{
 .email {
     color: blue;
     text-align: left;
+    line-height: 1.5rem;
+}
+
+.clearfix::after {
+    content: 0;
+    display: table;
+    clear: both;
+
 }
