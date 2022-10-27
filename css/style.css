@@ -31,7 +31,7 @@ body{
 }
 .card {
     
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 0.5rem;
     float: left;
     width: calc(100% / 3);    
 }
@@ -58,6 +58,7 @@ img{
     color: blue;
     text-align: left;
     line-height: 1.5rem;
+    cursor: pointer;
 }
 
 .clearfix::after {
