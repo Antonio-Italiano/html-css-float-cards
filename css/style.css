@@ -8,13 +8,46 @@ body{
     font-family: 'Fredoka', sans-serif;    
 }
 
+/*Section conteiner*/
+
 .container {    
     max-width: 1080px;
     margin: 0 auto;
     text-align: center;
 }
 
+.header {
+    margin-bottom: 5rem;
+}
+
 .intestaction {
     color: #dd137a;
     line-height: 5rem;    
+}
+
+/*section card*/
+.card {
+    background-color: black;
+    padding: 0.3rem;
+    float: left;
+    
+}
+
+img{
+    height: 4.5rem;
+    float: left;
+    margin-right: 0.5rem;
+}
+
+.name,
+.profection {
+    color: #fff;
+    text-align: left;
+    line-height: 1.5rem;
+    
+}
+
+.email {
+    color: blue;
+    text-align: left;
 }
